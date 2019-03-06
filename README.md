@@ -26,7 +26,8 @@ Here's [the documentation](http://www.postgresql.org/download/linux/debian/).
 3. Enable Adminpack:
 ```bash
 # Log in to the psql console as postgres user:
-sudo -u postgres psql
+su postgres
+psql -d postgres -U postgres
 ```
 
 ```sql
